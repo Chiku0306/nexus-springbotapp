@@ -40,6 +40,15 @@
      
 	
 	<build>
-		<finalName>LoginWebApp</finalName>
-	</build>
+           <plugins>
+               <plugin>
+                   <groupId>org.apache.maven.plugins</groupId>
+                   <artifactId>maven-war-plugin</artifactId>
+                   <version>3.3.2</version> <!-- Use a newer version here -->
+               </plugin>
+        <!-- Other plugins -->
+         </plugins>
+		
+	     <finalName>LoginWebApp</finalName>
+    </build>
 </project>
