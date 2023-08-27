@@ -24,6 +24,21 @@
 			<version>4.10</version>
 		</dependency> 
 	</dependencies>
+        <distributionManagement>
+	        <repository>
+		    <id>nexus</id>
+		    <name>tech-maven-demo</name>
+		    <url>http://nexus-repo.cloudgaurdtechnologies.com:8081/repository/tech-maven-repo/</url>
+	        </repository>
+ 
+	        <snapshotRepository>
+		        <id>nexus</id>
+		        <name>tech-maven-demo</name>
+		        <url>http://nexus-repo.cloudgaurdtechnologies.com:8081/repository/tech-maven-repo/</url>
+	        </snapshotRepository>
+        </distributionManagement>
+     
+	
 	<build>
 		<finalName>LoginWebApp</finalName>
 	</build>
